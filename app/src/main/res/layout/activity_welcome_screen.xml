@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.startup.WelcomeScreenActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="Welcome To Whatsapp!"
+            android:textColor="#206F3D"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_190sdp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wp_icon"
+            android:layout_marginTop="@dimen/_25sdp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read our Privacy Policy. Tap 'Agree and \n continue' to accept the Terms Of Service"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_60sdp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAgree"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@color/primary"
+            android:text="AGREE AND CONTINUE"
+            android:textColor="@color/white"
+            />
+
+
+        
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_30sdp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F A C E B O O K"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

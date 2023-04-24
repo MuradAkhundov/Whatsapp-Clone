@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImage"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/person_male"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_2sdp">
+
+
+
+            <TextView
+                android:id="@+id/userNameText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Username"/>
+
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/call_ic"
+                app:tint="@color/primary"
+                android:layout_marginTop="@dimen/_3sdp"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_4sdp">
+
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:src="@drawable/arrow_down"
+                app:tint="#B11818"/>
+
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="#2E2E2E"
+                android:text="15/04/2023 ; 9:10 pm"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
