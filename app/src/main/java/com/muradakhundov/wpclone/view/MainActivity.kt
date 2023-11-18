@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone
+package com.muradakhundov.wpclone.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +10,8 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
+import com.muradakhundov.wpclone.R
+import com.muradakhundov.wpclone.adapter.SectionsPagerAdapter
 import com.muradakhundov.wpclone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -62,9 +64,15 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             Handler().postDelayed({
                 when (index) {
-                    0 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity, R.drawable.chat_ic))
-                    1 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity, R.drawable.camera_ic))
-                    2 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity, R.drawable.call_ic))
+                    0 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity,
+                        R.drawable.chat_ic
+                    ))
+                    1 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity,
+                        R.drawable.camera_ic
+                    ))
+                    2 -> fabBtn.setImageDrawable(ContextCompat.getDrawable(this@MainActivity,
+                        R.drawable.call_ic
+                    ))
                 }
             }, 200)
         }

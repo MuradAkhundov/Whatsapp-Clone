@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone
+package com.muradakhundov.wpclone.adapter
 
 import android.content.Context
 import androidx.fragment.app.Fragment
