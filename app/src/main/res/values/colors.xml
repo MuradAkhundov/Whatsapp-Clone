@@ -5,4 +5,7 @@
     <color name="colorPrimary">#075e54</color>
     <color name="colorPrimaryDark">#144014</color>
     <color name="colorSecondary">#128c7e</color>
+    <color name="bg_color">#ece5dd</color>
+    <color name="red">#8C1224</color>
+    <color name="green">#205538</color>
 </resources>
