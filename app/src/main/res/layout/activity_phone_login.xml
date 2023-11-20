@@ -96,6 +96,39 @@
             android:textSize="16sp"
             android:text="Carrie SMS charge may apply"/>
 
+        <EditText
+            android:id="@+id/edCode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Code"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/retryLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="Did not get the SMS?"/>
+
+            <TextView
+                android:id="@+id/sendAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:textColor="#0078D4"
+                android:text="Send again."/>
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -108,7 +141,16 @@
     android:layout_marginBottom="30dp"
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true"/>
-    
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+
+
 </RelativeLayout>
 
 </layout>

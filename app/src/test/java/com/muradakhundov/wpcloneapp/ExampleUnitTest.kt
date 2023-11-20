@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone
+package com.muradakhundov.wpcloneapp
 
 import org.junit.Test
 

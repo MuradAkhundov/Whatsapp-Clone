@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone.model
+package com.muradakhundov.wpcloneapp.model
 
 data class CallList(
     val userID : String,

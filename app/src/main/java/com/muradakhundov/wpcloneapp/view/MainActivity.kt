@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone.view
+package com.muradakhundov.wpcloneapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,9 +10,9 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
-import com.muradakhundov.wpclone.R
-import com.muradakhundov.wpclone.adapter.SectionsPagerAdapter
-import com.muradakhundov.wpclone.databinding.ActivityMainBinding
+import com.muradakhundov.wpcloneapp.R
+import com.muradakhundov.wpcloneapp.adapter.SectionsPagerAdapter
+import com.muradakhundov.wpcloneapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

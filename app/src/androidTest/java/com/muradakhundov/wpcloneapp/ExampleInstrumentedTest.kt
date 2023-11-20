@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone
+package com.muradakhundov.wpcloneapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

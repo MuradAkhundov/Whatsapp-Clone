@@ -1,14 +1,12 @@
-package com.muradakhundov.wpclone.adapter
+package com.muradakhundov.wpcloneapp.adapter
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.muradakhundov.wpclone.menu.CallFragment
-import com.muradakhundov.wpclone.menu.ChatsFragment
-import com.muradakhundov.wpclone.menu.StatusFragment
+import com.muradakhundov.wpcloneapp.menu.CallFragment
+import com.muradakhundov.wpcloneapp.menu.ChatsFragment
+import com.muradakhundov.wpcloneapp.menu.StatusFragment
 
 class SectionsPagerAdapter (
     var context: Context,

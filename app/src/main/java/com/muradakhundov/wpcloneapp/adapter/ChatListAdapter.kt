@@ -1,14 +1,13 @@
-package com.muradakhundov.wpclone.adapter
+package com.muradakhundov.wpcloneapp.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.constraintlayout.widget.ConstraintSet
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import com.bumptech.glide.Glide
-import com.muradakhundov.wpclone.databinding.LayoutChatListBinding
-import com.muradakhundov.wpclone.model.ChatList
+import com.muradakhundov.wpcloneapp.databinding.LayoutChatListBinding
+import com.muradakhundov.wpcloneapp.model.ChatList
 
 class ChatListAdapter() : Adapter<ChatListAdapter.ChatDesignHolder>() {
     private lateinit var list : List<ChatList>

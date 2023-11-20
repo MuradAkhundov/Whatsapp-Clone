@@ -2,10 +2,11 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id ("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.muradakhundov.wpclone"
+    namespace = "com.muradakhundov.wpcloneapp"
     compileSdk = 34
     buildFeatures{
         viewBinding = true
@@ -13,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.muradakhundov.wpclone"
+        applicationId = "com.muradakhundov.wpcloneapp"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -50,8 +51,14 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation("com.google.firebase:firebase-auth:22.3.0")
     testImplementation("junit:junit:4.13.2")
     implementation ("com.makeramen:roundedimageview:2.3.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+
+    implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
+
+    implementation("com.google.firebase:firebase-auth")
 }

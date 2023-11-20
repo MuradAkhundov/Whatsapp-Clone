@@ -1,11 +1,11 @@
-package com.muradakhundov.wpclone.menu
+package com.muradakhundov.wpcloneapp.menu
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.muradakhundov.wpclone.R
+import com.muradakhundov.wpcloneapp.R
 
 
 class StatusFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.muradakhundov.wpclone.model
+package com.muradakhundov.wpcloneapp.model
 
 data class ChatList(
     val userID: String,

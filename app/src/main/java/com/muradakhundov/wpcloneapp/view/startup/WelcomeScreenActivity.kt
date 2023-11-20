@@ -1,11 +1,10 @@
-package com.muradakhundov.wpclone.view.startup
+package com.muradakhundov.wpcloneapp.view.startup
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.muradakhundov.wpclone.view.MainActivity
-import com.muradakhundov.wpclone.databinding.ActivityWelcomeScreenBinding
-import com.muradakhundov.wpclone.view.auth.PhoneLoginActivity
+import com.muradakhundov.wpcloneapp.databinding.ActivityWelcomeScreenBinding
+import com.muradakhundov.wpcloneapp.view.auth.PhoneLoginActivity
 
 class WelcomeScreenActivity : AppCompatActivity() {
     private lateinit var binding : ActivityWelcomeScreenBinding

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178575210525",
+    "project_id": "whatsappclone-4fa21",
+    "storage_bucket": "whatsappclone-4fa21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178575210525:android:a4148ad48e5b2c1089eef4",
+        "android_client_info": {
+          "package_name": "com.muradakhundov.wpclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVbugUX4hlT0F9x8IRz4lDZAGdf7SA_O4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
